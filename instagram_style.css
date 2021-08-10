@@ -1,0 +1,211 @@
+#content {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+
+/* This is the navigation in the header of the page */
+#navigation {
+  display: block;
+  height: 60px;
+  border-bottom: 1px solid grey;
+  background: rgba(var(--b3f,250,250,250),1);
+  padding-bottom: 10px;
+}
+
+/* This is the "Instagram" on Top-Left */
+
+h3 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 1px;
+    font-family: Style Script;
+    font-size: 30px;
+}
+
+/* This is the general Font of Instagram */
+
+h4 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+}
+
+/* This is the searchbar in the navigation */
+#searchbar {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 950px;
+    top: 25px;
+    width: 225px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+
+
+
+}
+
+/* These are the Options */
+
+#options {
+    display: inline-block;
+    position: relative;
+    left: 1275px;
+    margin: 15px;
+
+
+
+}
+
+/* This is the Stories-Section */
+.stories {
+      display: inline-block;
+      margin: 3px 10px;
+      padding: 1px 2px;
+      width: 45px;
+      height: 45px;
+      box-shadow: 0 0 0 2pt #c72e93;
+      border: 1px solid rgba(var(--b3f,250,250,250),1);
+      border-radius: 50%
+}
+
+
+
+
+.background {
+    background-image:url("./profile_picture.png");
+    widht: 15px:
+    height: auto;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+/* This is the div around the stories */
+#storyblock {
+    display: inline;
+    display: block;
+    width: 650px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+
+/* This is the feed of the IG-Page */
+.feed {
+    display: block;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    width: 650px;
+    min-height: 800px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* This is the Profile Picture of the User */
+
+#userpic {
+    margin: 10px 5px;
+
+}
+
+/* These are the 3 dots for "More Options" */
+
+#optionsbutton {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 35px;
+    border: 0px solid white;
+    background: none;
+    font-size: 18px;
+
+}
+
+/* This is the layout of the post itself */
+.igpost {
+    width: 650px;
+    height: 710px;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+.userposting {
+    display: block;
+    position: relative;
+}
+
+.commentsection {
+    display: block;
+    width: 650px;
+    height: 250px;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    position: relative;
+    top: 25px;
+
+}
+
+.commenting {
+    position: relative;
+    border: 10px solid #dbdbdb;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    left: 35px;
+    width: 450px;
+    height: 30px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.socialemoji {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.postit {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #c0e0fc;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    position: relative;
+    left: 60px;
+}
+
+.commentdiv {
+    border-top: 1px solid #dbdbdb;
+}
+
+

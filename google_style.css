@@ -8,7 +8,7 @@
     text-align: center;
     position: relative;
     top: 550px;
-    left: 500px;
+    left: 450px;
 
 }
 
@@ -54,6 +54,7 @@ h4 {
     display: inline-block;
     color: #3c4043;
     font-family: arial, sans-serif;
+    font-weight: lighter;
     text-align: center;
     position: relative;
     top: 325px;
