@@ -11,7 +11,7 @@
   height: 60px;
   border-bottom: 1px solid grey;
   background: rgba(var(--b3f,250,250,250),1);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 /* This is the "Instagram" on Top-Left */
@@ -33,7 +33,7 @@ h4 {
     font-weight: 200;
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 10px;
 }
 
 p {
@@ -50,7 +50,7 @@ p {
     display: inline-block;
     text-align: center;
     position: absolute;
-    left: 950px;
+    left: 920px;
     top: 25px;
     width: 225px;
     height: 30px;
@@ -104,7 +104,7 @@ p {
 #storyblock {
     display: inline;
     display: block;
-    width: 650px;
+    width: 640px;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
     padding: 10px;
@@ -165,10 +165,10 @@ p {
     display: block;
     width: 650px;
     height: 250px;
-    margin-top: 5px;
+    margin-top: 1px;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     position: relative;
     top: 25px;
 
